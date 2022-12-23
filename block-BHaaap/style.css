@@ -1,0 +1,45 @@
+body {
+  padding: 1em;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  border: 1px solid red;
+  background-color: #d18c1d;
+  padding: 10px;
+}
+
+p {
+  width: 600px;
+  height: 400px;
+  border: 2px dotted #000;
+  background-color: #d1d631;
+  margin: 1em 0;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 1em;
+}
+
+footer {
+  border-bottom: 3px dashed blue;
+  background-color: #a1a1a1;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  margin: 0 1em;
+  font-size: 1rem;
+  text-decoration: 0;
+}
