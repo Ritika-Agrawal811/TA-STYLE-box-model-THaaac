@@ -1,0 +1,76 @@
+<!---
+### Create a page according to the layout shown below
+
+![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+
+#### Problems for exercise 2 in the layout
+
+- Each parent container has width of 600px and border of 1px;
+- Each children box has width 180px and height 100px as well as margin of 10px;
+- Each child box which is having border has border-width 1px.
+- Note in the first container the boxes do not have any border.
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+--->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Box Model</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        The Box Model <span class="sans-serif">,</span> Box-sizing
+        <span class="sans-serif">&</span> Box- <br />shadow
+      </h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Exercise1</h2>
+        <div class="example-box"></div>
+        <div class="labels">
+          <div>Content</div>
+          <div>Padding</div>
+          <div>Border</div>
+          <div>Margin</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Exercise2</h2>
+        <h3>no border on these boxes.</h3>
+        <div class="parent display-flex">
+          <div class="box no-border"></div>
+          <div class="box no-border"></div>
+          <div class="box no-border"></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>1px border on these boxes.</h3>
+        <div class="parent">
+          <div class="box inline-block"></div>
+          <div class="box inline-block"></div>
+          <div class="box"></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>1px border on these boxes but they are in same line.</h3>
+        <div class="parent display-flex">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
